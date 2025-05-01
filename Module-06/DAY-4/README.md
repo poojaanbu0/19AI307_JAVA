@@ -15,21 +15,35 @@
  ```
 /*
 Program to implement a Packages using Java
-Developed by: 
-RegisterNumber:  
+Developed by: SHAKTHI KUMAR S
+RegisterNumber: 212222110043
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
-
+### pack/A.java
+```
+package pack; 
+public class A {
+    public void display() {
+        System.out.println("This is Class A from pack package.");
+    }
+}
+```
+### mypack/B.java
+```
+package mypack;
+import pack.A; 
+public class B {
+    public static void main(String[] args) {
+        A obj = new A(); // Create object of class A
+        obj.display();   // Call the method of class A
+    }
+}
+```
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/081c79ac-9896-478f-86c1-bfad3088682f)
 
 
 ## RESULT:
