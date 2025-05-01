@@ -1,43 +1,83 @@
 # Ex.No:5(C)    GETTER AND SETTER METHOD
 
 ## AIM:
-To Create a java program to print the sum of two number using getter and setter method.
+To create a Java program to print the square of a given number using getter and setter methods.
 
 ## ALGORITHM :
-1.  Start the Program
-2.	Define class `Employee`:
--	a) Private variables `n1` and `n2`
--	b) Method `setsum(int n1, int n2)` to set values of `n1` and `n2`
--	c) Method `getsum()` to calculate and print `sum = n1 + n2`
-3.	In `main` class `main` method:
--	a) Use `Scanner` to read integers `n1` and `n2`
--	b) Create ` Employee ` object, set values, and call `getsum()`
-4.	End
+1. Start the Program.
+2. Define a class Square:
+
+i)Declare a private integer variable num.
+
+3.Define a setter method setNum(int n) to set the value of num.
+
+4.Define a getter method getSquare():
+
+i)Calculate and return the square of num.
+
+5.Define the Main class with the main method:
+
+i)Use Scanner to read the integer input from the user.
+
+ii)Create a Square object.
+
+iii)Set the value using setNum().
+
+iv)Get and print the square using getSquare().
+
+6.End the program.
 
 
 ## PROGRAM:
  ```
 /*
 Program to implement a Getter and Setter using Java
-Developed by: 
-RegisterNumber:  
+Developed by: SHAKTHI KUMAR S
+RegisterNumber: 212222110043
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
+public class SetAndGet {
+ 
+ private int w;
 
+public int getSquare() {
+ int sq=w*w;    
+ return sq;
+}
 
+public void setSquare(int w) {
+ this.w = w;
+}
 
+public static void main(String args[]){
+ Scanner sc=new Scanner(System.in);
+ SetAndGet obj = new SetAndGet();
+ int s1=sc.nextInt();
+ 
+ 
+ obj.setSquare(s1);
+ 
+ System.out.println("Square of "+s1+" is: "+obj.getSquare());
 
+}
 
+}
 
+```
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/fb4ff6ce-c654-4a7c-a701-b962c13b90f7)
 
 
 ## RESULT:
-Thus the java program to print the sum of two number using getter and setter method was executed successfully.
+Thus, the Java program to print the square of a given number using getter and setter methods was successfully executed.
+
+
 
 
 
