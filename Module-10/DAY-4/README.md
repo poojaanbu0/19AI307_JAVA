@@ -14,31 +14,49 @@
 5.	Use an enhanced `for` loop to print each element in `hs`
 6.	End
 
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a JAVA HASHSET & LINKEDHASHSET using Java
-Developed by: 
-RegisterNumber:  
+Developed by: SHAKTHI KUMAR S
+RegisterNumber: 212222110043
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
+
+public class HashSetDemo{
+
+public static void main(String args[]){
 
 
+Scanner sc=new Scanner(System.in);
+ArrayList<String> list=new ArrayList<String>(); 
+int n=sc.nextInt();
+for(int i=0;i<n;i++)
+{
+    
+list.add(sc.next());
 
+}
+HashSet<String> set=new HashSet<String>(list);  
+set.add(sc.next());  
+Iterator<String> i=set.iterator();  
+while(i.hasNext())  
+{  
+System.out.println(i.next());  
+}  
 
-
-
+}
+}
+```
 
 ## OUTPUT:
 
-
+![image](https://github.com/user-attachments/assets/1872dbcf-5486-49b4-b8d2-a08ae8873f0a)
 
 ## RESULT:
 Thus the java program of hashmap concepts was executed and verified successfully.
-
-
 
