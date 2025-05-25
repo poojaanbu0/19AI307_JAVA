@@ -18,8 +18,8 @@
  ```
 /*
 Program to implement a Exception Handling-Run Time Exception using Java
-Developed by: DEVADARSHAN A S
-RegisterNumber: 212222110007
+Developed by: SHAKTHI KUMAR S
+RegisterNumber: 212222110043
 */
 ```
 
