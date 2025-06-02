@@ -104,7 +104,7 @@ Input    Expected     Got
 
 
 ## RESULT:
-Thus a java program to display the value of volume of cylinder get the radius and height value as input and use tightly encapsulated class was executed successfully.
+Thus, the Java program to calculate the area of a triangle using getter and setter methods and implementing tightly encapsulated concepts was successfully executed.
 
 
 
