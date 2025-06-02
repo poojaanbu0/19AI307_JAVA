@@ -82,8 +82,7 @@ public static void main(String args[]){
 
 
 ## RESULT:
-Thus the java program to print the sum of two number using getter and setter method was executed successfully.
-
+Thus, the Java program to print the square of a given number using getter and setter methods was successfully executed.
 
 
 
