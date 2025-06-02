@@ -29,20 +29,64 @@
  ```
 /*
 Program to implement a final & Static using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Pooja A
+RegisterNumber: 212222240072 
 */
 ```
 
 ## Sourcecode.java:
 
+```
+class Name
+{
+    String Degree;
+    String Branch;
+    String Year;
+    Name(String d,String b,String y)
+    {
+        this.Degree=d;
+        this.Branch=b;
+        this.Year=y;
+    }
+    void dispName()
+    {
+        System.out.println(Degree+" "+Branch+" "+Year);
+    }
+}
+class Student
+{
+    int Stu_Id;
+    Name obj;
+    Student(int id,String d,String b,String y)
+    {
+        this.Stu_Id=id;
+        this.obj=new Name(d,b,y);
+    }
+    void dispStudent()
+    {
+        System.out.println(Stu_Id);
+        obj.dispName();
+    }
+}
 
+public class Main
+{
+    public static void main(String[] args)
+    {
+      Student stu=new Student(101,"B.Tech","IT","Third year");
+      stu.dispStudent();
+        
+    }
+}
+```
 
 
 
 
 
 ## OUTPUT:
+
+![437760259-947fbfd1-3e8b-4e75-894c-ce0aad7e74bb](https://github.com/user-attachments/assets/6d9100a3-97e3-4b4b-ab52-e95900053556)
 
 
 
