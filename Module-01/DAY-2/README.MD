@@ -51,15 +51,10 @@ public class Demo {
 ```
 
 ## OUTPUT:
-```
-Input    Expected   Got
 
-23       true       true
-34
 
-124      false      false
-23
-```
+
+
 
 
 ## RESULT:
