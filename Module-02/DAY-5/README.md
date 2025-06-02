@@ -18,13 +18,54 @@ To write a Java program that reads an array size and elements from the user and 
  ```
 /*
 Program to implement a Smallest Element in an Array
-Developed by: 
-RegisterNumber:  
+Developed by: Pooja A
+RegisterNumber: 212222240072  
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
 
+public class SmallestElements {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int size = scanner.nextInt();
+        
+        if (size < 2) {
+            System.out.println("Array should have at least two elements.");
+            return;
+        }
+
+        int[] array = new int[size];
+
+        for (int i = 0; i < size; i++) {
+            array[i] = scanner.nextInt();
+        }
+
+        int smallest = Integer.MAX_VALUE;
+        int secondSmallest = Integer.MAX_VALUE;
+
+        for (int i = 0; i < size; i++) {
+            if (array[i] < smallest) {
+                secondSmallest = smallest;
+                smallest = array[i];
+            } else if (array[i] < secondSmallest && array[i] != smallest) {
+                secondSmallest = array[i];
+            }
+        }
+
+        if (secondSmallest == Integer.MAX_VALUE) {
+            System.out.println("There is no second smallest element.");
+        } else {
+            System.out.println("Smallest element: " + smallest);
+            System.out.println("Second smallest element: " + secondSmallest);
+        }
+    }
+}
+
+```
 
 
 
@@ -32,6 +73,8 @@ RegisterNumber:
 
 
 ## OUTPUT:
+
+![439171021-afce41fe-6a77-4675-8d36-d22255d42953](https://github.com/user-attachments/assets/b1f3a4f4-7f05-48bb-95e9-d3bab0dbc07e)
 
 
 
