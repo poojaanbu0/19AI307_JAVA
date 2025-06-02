@@ -26,15 +26,27 @@ RegisterNumber:  212222240072
 ```
 
 ## Sourcecode.java:
+```
+class Student
+{
+    String name;
+    String address;
+}
+public class Main
+{
+    public static void main(String[] args)
+   {
+        Student obj= new Student();        
+        obj.name="John";
+        obj.address="Chennai";
+        System.out.println(obj.name+" "+obj.address);
+    }
+}
 
-
-
-
-
-
+```
 
 ## OUTPUT:
-
+![437386419-8072b3cc-b32c-4e47-8384-c7b28682bf80](https://github.com/user-attachments/assets/77c16a4c-256a-4901-b02a-bbe1e8e928af)
 
 
 ## RESULT:
