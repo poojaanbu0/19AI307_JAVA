@@ -17,30 +17,44 @@ To Create a Java program to implement super keyword in constructor.
 -	b) Call `sc.print()` to execute the `print()` method
 5.	End
 
-
-
-
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a Constructor Chaining using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Pooja A
+RegisterNumber: 212222240072 
 */
 ```
 
 ## Sourcecode.java:
+```
+class Vehicle {
 
+  Vehicle(){
+      System.out.println("I am a Vehicle");
+  }
+}
 
-
-
-
+class Car extends Vehicle {
+     Car(){
+         super();
+         System.out.println("I am a Car");
+     }
+  
+}
+public class Main {
+  public static void main(String[] args) {
+  
+     Car c=new Car();
+  
+  }
+}
+```
 
 
 ## OUTPUT:
+
+![437759595-c2034508-6cda-4afd-882a-3d33d9435820](https://github.com/user-attachments/assets/1c813ab9-dfe9-4c4a-8341-4c093469be8f)
 
 
 
