@@ -58,7 +58,7 @@ public class Main{
 
 ## OUTPUT:
 ```
-Expected        	Got 	
+Expected        	   Got 	
 17                  17
 ```
 
