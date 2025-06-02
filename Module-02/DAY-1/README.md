@@ -27,7 +27,23 @@ RegisterNumber:  212222240072
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
 
+public class CubeCalculator {
+
+    public static int calculateCube(int number) {
+        return number * number * number;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
+        int cube = calculateCube(number);
+        System.out.println("Cube is: "+ cube);
+    }
+}
+```
 
 
 
@@ -35,6 +51,8 @@ RegisterNumber:  212222240072
 
 
 ## OUTPUT:
+
+![437402536-447295af-86fe-42be-adf1-f3b1b6077c20](https://github.com/user-attachments/assets/c1de8d7d-6c33-4bee-b8eb-ff5647a30d59)
 
 
 
