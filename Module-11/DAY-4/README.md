@@ -21,13 +21,43 @@ To Create a java program to insert and display the key and values using map inte
  ```
 /*
 Program to implement a RELATED TO MAP CONCEPTS using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Pooja A
+RegisterNumber:  212222240072
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;  
+public class Mapp{  
+ public static void main(String args[]){ 
+     
+  Map<Integer,String> numbers=new HashMap<Integer,String>(); 
+  Scanner sc=new Scanner(System.in);
+  
+  int size=sc.nextInt();
+  for(int i=0;i<size;i++)
+  {
+  Integer a=sc.nextInt();
+  String b=sc.next();
+  numbers.put(a,b);  
+  } 
+ 
+ System.out.println("Map: " + numbers);
 
+        
+        System.out.println("Keys: " + numbers.keySet());
+
+        
+        System.out.println("Values: " + numbers.values());
+
+        
+        System.out.println("Entries: " + numbers.entrySet());
+
+       
+ }  
+}
+```
 
 
 
@@ -35,6 +65,8 @@ RegisterNumber:
 
 
 ## OUTPUT:
+
+![443612421-8017c5f4-1ccd-4101-9194-177ac1176358](https://github.com/user-attachments/assets/705d12ce-1050-4dbe-bf4f-dff6c20027c2)
 
 
 
