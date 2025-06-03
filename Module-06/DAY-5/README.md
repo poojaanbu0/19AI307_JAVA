@@ -32,7 +32,7 @@ b.	Call the add() and sub() methods respectively
 ## PROGRAM:
  ```
 /*
-Program to implement a Multiple Inheritance
+Program to implement a Single Inheritance
 Developed by: Pooja A
 RegisterNumber:  212222240072
 */
