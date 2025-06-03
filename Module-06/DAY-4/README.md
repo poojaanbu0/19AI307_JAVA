@@ -1,6 +1,6 @@
 # Ex.No:6(D) PACKAGES
 ## AIM:
-  To create a Java Program for accessing package from another package using packagename.
+ To create a Java Program for accessing package from another package using packagename.
  
 ## ALGORITHM :
 1.	Start the Program
@@ -15,13 +15,32 @@
  ```
 /*
 Program to implement a Packages using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Pooja A
+RegisterNumber:  212222240072
 */
 ```
 
 ## Sourcecode.java:
-
+### pack/A.java
+```
+package pack; 
+public class A {
+    public void display() {
+        System.out.println("This is Class A from pack package.");
+    }
+}
+```
+### mypack/B.java
+```
+package mypack;
+import pack.A; 
+public class B {
+    public static void main(String[] args) {
+        A obj = new A(); // Create object of class A
+        obj.display();   // Call the method of class A
+    }
+}
+```
 
 
 
@@ -29,6 +48,8 @@ RegisterNumber:
 
 
 ## OUTPUT:
+
+![438291362-081c79ac-9896-478f-86c1-bfad3088682f](https://github.com/user-attachments/assets/dea937cd-a62b-4370-b2cc-cc418fa799a4)
 
 
 
