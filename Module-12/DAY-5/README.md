@@ -2,6 +2,7 @@
 
 ## AIM:
 To demonstrate how to remove and display the first element from a Deque using the pollFirst() method in Java Collections with String values.
+
 ## ALGORITHM :
 
 1.	Import java.util.*.
@@ -15,14 +16,38 @@ To demonstrate how to remove and display the first element from a Deque using th
  ```
 /*
 Program to implement a JAVA DEQUEUE
-Developed by: 
-RegisterNumber:  
+Developed by: Pooja A
+RegisterNumber: 212222240072  
 */
 ```
 
 ## Sourcecode.java:
 
+```
+import java.util.*;
 
+public class deQueueDemo {
+	
+
+	public static void main(String args[])
+	{
+	
+		Deque<Integer> dq = new LinkedList<Integer>();
+        
+	    Scanner sc=new Scanner(System.in);
+	    int size=sc.nextInt();
+	    for(int i=0;i<size;i++){
+	        dq.add(sc.nextInt());
+	    }
+	    System.out.println("Display the element of Dequeue:");
+		System.out.println(dq);
+        System.out.println("Display the element of Dequeue after add first element :");
+        dq.addLast(150);
+		System.out.println(dq);
+		
+	}
+}
+```
 
 
 
@@ -30,6 +55,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![444607588-1e62a533-9914-4388-a0d2-85efe9f57251](https://github.com/user-attachments/assets/a87feedf-cbfb-43f4-abea-154bc4853440)
 
 
 ## RESULT:
