@@ -24,13 +24,35 @@
  ```
 /*
 Program to implement a JAVA TREE MAP using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Pooja A
+RegisterNumber:  212222240072
 */
 ```
 
 ## Sourcecode.java:
-
+```
+import java.util.*;  
+public class ss {  
+  public static void main(String args[]){  
+  
+   TreeMap<Integer,String> tree_map=new TreeMap<Integer,String>();      
+  Scanner sc=new Scanner(System.in);
+   int size=sc.nextInt();
+   for(int i=0;i<size;i++)
+   {
+      Integer n1 = sc.nextInt();
+      String s1= sc.next();
+       
+   	  tree_map.put(n1,s1);  
+   }
+	 
+   for (Map.Entry<Integer,String> entry : tree_map.entrySet())
+   {
+    System.out.println(entry.getKey() + "=>" + entry.getValue());
+   }
+ }  
+}
+```
 
 
 
@@ -38,6 +60,8 @@ RegisterNumber:
 
 
 ## OUTPUT:
+
+![444602952-8d5c1fa8-72d8-4604-aaa3-d31cb625ddfc](https://github.com/user-attachments/assets/c84f36d7-3a3f-4591-bb39-c21f4c236d23)
 
 
 
