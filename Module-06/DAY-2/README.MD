@@ -1,7 +1,7 @@
 # Ex.No:6(B) MULTI-LEVEL INHERITANCE
 
 ## AIM:
-To Develop a Java program to perform Multilevel Inheritance to calculate the area of circle..
+To Develop a Java program to perform Multilevel Inheritance to calculate the area of circle.
 
 ## ALGORITHM :
 1.	Start the Program.
@@ -22,21 +22,55 @@ To Develop a Java program to perform Multilevel Inheritance to calculate the are
  ```
 /*
 Program to implement a MultiLevel Inheritance using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Pooja A
+RegisterNumber:  212222240072
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
+```
+import java.util.*;
+class Shapes{
+    public void print_Shape(){
+        System.out.println("Shapes Class");
+    }
+}
+class Circle extends Shapes{
+    double radius;
+    Scanner sc=new Scanner(System.in);
+    public void get()
+    {
+        radius=sc.nextDouble();
+    }
+}
+class Area extends Circle{
+    public void calc(){
+        double area=3.14*radius*radius;
+        System.out.println("Area of Circle is "+area);
+    }
+}
+public class Main{
+    public static void main(String[] args){
+        Area area=new Area();
+        area.print_Shape();
+        area.get();
+        area.calc();
+    }
+}
+```
 
 
 ## OUTPUT:
+```
+Input        Expected  	                               Got
 
+2          Shapes Class                              Shapes Class
+           Area of Circle is 12.56                   Area of Circle is 12.56
+
+3          Shapes Class                              Shapes Class
+           Area of Circle is 28.259999999999998      Area of Circle is 28.259999999999998
+
+```
 
 
 ## RESULT:
