@@ -20,13 +20,41 @@
  ```
 /*
 Program to implement a JAVA HASHSET & LINKEDHASHSET using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Pooja A
+RegisterNumber:  212222240072
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
 
+public class HashSetDemo{
+
+public static void main(String args[]){
+
+
+Scanner sc=new Scanner(System.in);
+ArrayList<String> list=new ArrayList<String>(); 
+int n=sc.nextInt();
+for(int i=0;i<n;i++)
+{
+    
+list.add(sc.next());
+
+}
+HashSet<String> set=new HashSet<String>(list);  
+set.add(sc.next());  
+Iterator<String> i=set.iterator();  
+while(i.hasNext())  
+{  
+System.out.println(i.next());  
+}  
+
+}
+}
+
+```
 
 
 
@@ -35,6 +63,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![443607887-1872dbcf-5486-49b4-b8d2-a08ae8873f0a](https://github.com/user-attachments/assets/aad6a228-ec59-4b7a-bbbf-3b134ffe8b61)
 
 
 ## RESULT:
