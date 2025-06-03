@@ -16,18 +16,39 @@ To Create a java program to retrieve the key and value from hashtable for all in
 6.	End
 
 
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a JAVA MAP & HASHMAP AND HASHTABLE using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Pooja A
+RegisterNumber:  212222240072
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;  
+public class Mapp{  
+ public static void main(String args[]){ 
+     
+  Map<Integer,String> map=new Hashtable<>(); 
+  Scanner sc=new Scanner(System.in);
+  
+  int size=sc.nextInt();
+  for(int i=0;i<size;i++)
+  {
+  Integer a=sc.nextInt();
+  String b=sc.next();
+  map.put(a,b);  
+  } 
+ 
+  
+ Iterator<Integer> keySetIterator = map.keySet().iterator(); while(keySetIterator.hasNext()){ Integer key = keySetIterator.next(); System.out.println("key: " + key + " value: " + map.get(key)); }
+
+
+ }  
+}  
+```
 
 
 
@@ -41,10 +62,4 @@ RegisterNumber:
 
 ## RESULT:
 Thus the java program to retrieve the key and value from hashtable for all input value was executed successfully.
-
-
-
-
-
-
 
