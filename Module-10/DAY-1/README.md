@@ -6,7 +6,7 @@ To create a Java Program to add even numbers from 1 to 10 or 11 to 20 or 21 to 3
 1. Start the Program  
 2. Import java.util.* package for input and ArrayList functionality  
 3. Define the class Main with the main method  
-   a) Create an ArrayList<Integer> named al  
+   a) Create an ArrayList <Integer> named al  
    b) Create a Scanner object sc for runtime input  
 4. Loop 5 times using a for loop:  
    a) Read an integer from the user  
