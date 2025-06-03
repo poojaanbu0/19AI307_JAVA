@@ -1,7 +1,6 @@
 # Ex.No:12(D) JAVA QUEUE
 ## AIM:
-To Write a java program to create vector and read the elements for two vector in java collection.(Use equals method )
-
+To Write a java program to display the added elements from the Priority Queue.
 
 ## ALGORITHM :
 1.	Start the Program
@@ -25,13 +24,38 @@ To Write a java program to create vector and read the elements for two vector in
  ```
 /*
 Program to implement a JAVA QUEUE using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Pooja A
+RegisterNumber:  212222240072
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
 
+public class PriorityQueueDemo {
+	
+
+	public static void main(String args[])
+	{
+	
+		PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>();
+        
+	    Scanner sc=new Scanner(System.in);
+	    int size=sc.nextInt();
+	    for(int i=0;i<size;i++){
+	        pQueue.add(sc.nextInt());
+	    }
+	   Iterator iterator = pQueue.iterator();
+	   System.out.println("Iterate the elements from the queue using while loop:");
+  
+        while (iterator.hasNext()) {
+            System.out.print(iterator.next() + " ");
+        }
+		
+	}
+}
+```
 
 
 
@@ -40,9 +64,10 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![444606202-4f22db10-f5f0-4e7a-a4c7-8dda4f3e8fa2](https://github.com/user-attachments/assets/5a2f7e76-a56a-4321-8ac8-31eb25c25812)
+
 
 
 ## RESULT:
-Thus the java program to create vector and read the elements for two vector in java collection.(Use equals method )was executed successfully.
-
+Thus the java program to display the added elements from the Priority Queue is executed successfully.
 
