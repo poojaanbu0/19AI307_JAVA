@@ -43,6 +43,18 @@ public class Main {
 
 ## OUTPUT:
 
+```
+Input           	Expected                       Got
+2                [college, engineering]         [college, engineering]
+college
+engineering
+
+3
+first           [first, second, third]           [first, second, third]
+second
+third
+```
+
 
 
 ## RESULT:
