@@ -2,6 +2,7 @@
 
 ## AIM:
 To write a Java program that reads a string from the user and prints it using the StringWriter class.
+
 ## ALGORITHM :
 
 a.	Start the program.
@@ -20,14 +21,37 @@ j.	End the program.
  ```
 /*
 Program to implement a STRING WRITER
-Developed by: 
-RegisterNumber:  
+Developed by: Pooja A
+RegisterNumber:  212222240072
 */
 ```
 
 ## Sourcecode.java:
 
+```
+import java.io.StringWriter;
 
+public class Main {
+  public static void main(String[] args) {
+
+    String data = "String Writer";
+
+    try {
+      StringWriter output = new StringWriter();
+
+      output.write(data);
+
+      System.out.println("Data in the StringWriter: " + output);
+
+      output.close();
+    }
+
+    catch(Exception e) {
+      e.getStackTrace();
+    }
+  }
+}
+```
 
 
 
@@ -35,8 +59,9 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![440202870-91e15a0b-ae43-4532-9754-cce807af2c07](https://github.com/user-attachments/assets/f3a4f3e7-86b3-484e-8ad6-c248407b2218)
+
 
 
 ## RESULT:
-Thus, implementation of  a Java program was successfully reads a string from the user and uses StringWriter to write and print the string to the output screen.
-
+Thus, implementation of a Java program was successfully reads a string from the user and uses StringWriter to write and print the string to the output screen.
