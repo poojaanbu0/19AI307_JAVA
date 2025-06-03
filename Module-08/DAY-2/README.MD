@@ -38,7 +38,3 @@ System.out.println("Append the character in the File Successfully");
 
 ## RESULT:
 Thus, the java program to append a NUMBER in a file “testout.txt” using Writer.was executed and verified successfully
-
-
-
-
