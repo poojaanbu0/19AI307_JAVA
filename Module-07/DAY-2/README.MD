@@ -20,18 +20,46 @@ To Write a Java program to demonstrate control flow of try-catch-finally clause 
 
 
 
+
 ## PROGRAM:
  ```
 /*
 Program to implement a Exception Handling-Finally using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Pooja A
+RegisterNumber: 212222240072 
 */
 ```
 
 ## Sourcecode.java:
 
-
+```
+import java.util.*;
+public class HelloWorld {
+    public static void main(String[] args) 
+    {
+      Scanner sc=new Scanner(System.in);
+       try
+        {
+           String str=sc.nextLine();
+           int a=Integer.parseInt(str);
+           System.out.println("Result:" +a);
+        }
+         
+        catch(NumberFormatException ex)
+        {
+            System.out.println("Exception: " +ex);
+        }
+         
+        finally
+        {
+            System.out.println("Finally block executed");
+        }
+         
+        // rest program will be executed
+        System.out.println("Outside try-catch-finally clause");
+    }
+}
+```
 
 
 
@@ -39,7 +67,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
-
+![image](https://github.com/user-attachments/assets/1f9fd324-fd13-443e-9433-665e78d87058)
 
 
 ## RESULT:
